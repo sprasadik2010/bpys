@@ -1,0 +1,24 @@
+{
+  "name": "bpys",
+  "version": "1.0.0",
+  "description": "App exclusively for BPYS, developed by SIVAPRASAD I K ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "bpys"
+  ],
+  "author": "BPYS",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "express.js": "^1.0.0",
+    "fs.js": "^0.0.1",
+    "nodemon": "^2.0.20",
+    "open": "^8.4.0"
+  }
+}
