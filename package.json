@@ -1,6 +1,9 @@
 {
   "scripts": {
-    "start": "concurrently --kill-others \"npm start --prefix server\" \"npm start --prefix client\""
+    "rootnpm": "npm install",
+    "servernpm": "npm install --prefix server",
+    "clientnpm": "npm install --prefix client",
+    "start": "npm run rootnpm && npm run servernpm && npm run clientnpm && concurrently --kill-others \"npm start --prefix server\" \"npm start --prefix client\""
   },
   "dependencies": {
     "nodemon": "^2.0.20",
